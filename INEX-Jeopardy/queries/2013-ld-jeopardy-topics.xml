@@ -1,0 +1,1503 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<inex-topic-file>   
+
+<topic id="2013301" category="Falls">
+<jeopardy_clue>This river's 350-foot drop at the Zambia-Zimbabwe border creates this water falls.</jeopardy_clue>
+<keyword_title>river's 350-foot drop  Zambia-Zimbabwe  Victoria Falls</keyword_title>
+<sparql_ft>
+<escape>
+SELECT DISTINCT ?x ?o WHERE { ?x &lt;http://dbpedia.org/property/watercourse&gt; ?o . FILTER FTContains (?x, "Victoria Falls") . FILTER FTContains (?o, "river water course Victoria 350-foot drop Zimbabwe") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT DISTINCT ?x ?o WHERE { ?x <http://dbpedia.org/property/watercourse> ?o . FILTER FTContains (?x, "Victoria Falls") . FILTER FTContains (?o, "river water course Victoria 350-foot drop Zimbabwe") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013302" category="Lowest Places">
+<jeopardy_clue>North Dakota's highest point is White Butte; its lowest is on this river of another colour.</jeopardy_clue>
+<keyword_title>North Dakota's lowest river of another colour</keyword_title>
+<sparql_ft>
+<escape>
+SELECT DISTINCT ?o1 WHERE { &lt;http://dbpedia.org/resource/North_Dakota&gt; &lt;http://dbpedia.org/property/lowestpoint&gt; ?o1 . ?o1 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/River&gt; . FILTER FTContains (?o1, "river colour lowest point north Dakota") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT DISTINCT ?o1 WHERE { <http://dbpedia.org/resource/North_Dakota> <http://dbpedia.org/property/lowestpoint> ?o1 . ?o1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River> . FILTER FTContains (?o1, "river colour lowest point north Dakota") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013303" category="Heads of state">
+<jeopardy_clue>This president was born in 1921 and died in Indonesia.</jeopardy_clue>
+<keyword_title>president born in 1921 died in Indonesia</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/President&gt; . ?s &lt;http://dbpedia.org/ontology/deathPlace&gt; ?x . FILTER FTContains (?x, "Indonesia") . FILTER FTContains (?s, "death place Indonesia born in 1921") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/President> . ?s <http://dbpedia.org/ontology/deathPlace> ?x . FILTER FTContains (?x, "Indonesia") . FILTER FTContains (?s, "death place Indonesia born in 1921") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013304" category="U.S. Presidents">
+<jeopardy_clue>On July, 1850 this president died in office and Millard Fillmore was sworn in the following day.</jeopardy_clue>
+<keyword_title> July, 1850  president died Millard Fillmore sworn following day</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://dbpedia.org/ontology/successor&gt; &lt;http://dbpedia.org/resource/Millard_Fillmore&gt; . FILTER FTContains (?s, "July 1850 president died in office") . FILTER FTContains (?o,"Millard Fillmore").}
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://dbpedia.org/ontology/successor> ?o . FILTER FTContains (?s, "July 1850  president died in office") . FILTER FTContains (?o,"Millard Fillmore"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013305" category="Geography">
+<jeopardy_clue>Most of the residents of this small Malay speaking island country are Chinese.</jeopardy_clue>
+<keyword_title>most residents small Malay speaking island country Chinese</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/Malay-speakingCountriesAndTerritories&gt; . FILTER FTContains (?s, "small island country Malay speaking island country Chinese") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://dbpedia.org/ontology/artist> ?x . ?s <http://dbpedia.org/property/title> ?o . FILTER FTContains (?s, "small island country Malay speaking island country Chinese") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013306" category="On the &quot;double&quot;">
+<jeopardy_clue>"(Just Like) Starting Over is one of the songs from this 1980 John Lennon Yoko Ono album.</jeopardy_clue>
+<keyword_title>John Lennon Yoko Ono album Starting Over</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://dbpedia.org/ontology/artist&gt; ?x . ?s &lt;http://dbpedia.org/property/title&gt; ?o . FILTER FTContains (?o,"Just Like Starting Over") . FILTER FTContains (?x, "John Lennon Yoko Ono") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://dbpedia.org/ontology/artist> ?x . ?s <http://dbpedia.org/property/title> ?o . FILTER FTContains (?o,"Just Like Starting Over") . FILTER FTContains (?x, "John Lennon Yoko Ono") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+<topic id="2013307" category="Movies about the movies">
+<jeopardy_clue>He directed eight and half, 8 1/2, a movie about a movie director.</jeopardy_clue>
+<keyword_title>8 1/2, eight and half about movie director</keyword_title>
+<sparql_ft>
+<escape>
+ SELECT ?o WHERE { ?s &lt;http://dbpedia.org/ontology/director&gt; ?o . FILTER FTContains (?s, "Eight and one half 8 1/2 movie director") . }
+</escape>
+<verbatim>
+<![CDATA[ SELECT ?o WHERE { ?s <http://dbpedia.org/ontology/director> ?o . FILTER FTContains (?s, "Eight and one half 8 1/2 movie director") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013308" category="Movies about the movies">
+<jeopardy_clue>John Turturro played this title screenwriter in a 1991 Coen Brothers film.</jeopardy_clue>
+<keyword_title>John Turturro 1991 Coen Brothers film</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://dbpedia.org/ontology/starring&gt; &lt;http://dbpedia.org/resource/John_Turturro&gt; . ?s &lt;http://dbpedia.org/ontology/director&gt; &lt;http://dbpedia.org/resource/Coen_brothers&gt; . FILTER FTContains(?s, "John Turturro played 1991 Coen Brothers film") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://dbpedia.org/ontology/starring> <http://dbpedia.org/resource/John_Turturro> . ?s <http://dbpedia.org/ontology/director> <http://dbpedia.org/resource/Coen_brothers> . FILTER FTContains(?s, "John Turturro played 1991 Coen Brothers film") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013309" category="20th century literature">
+<jeopardy_clue>Middle name of Naked and the Dead author Mailer or first name of Lucky Jim author Amis.</jeopardy_clue>
+<keyword_title>Middle name Naked Dead author Mailer first name Lucky Jim author Amis</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?x &lt;http://dbpedia.org/property/author&gt; ?s . FILTER FTContains (?x, "Lucky Jim") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?x <http://dbpedia.org/property/author> ?s . FILTER FTContains (?x, "Lucky Jim") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+
+<topic id="2013310" category="Around the world">
+<jeopardy_clue>Cities in this country include Baguio, Quezon City &amp; Manila got their official independence in 1945.</jeopardy_clue>
+<keyword_title>Baguio Quezon City  Manila official independence 1945</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?x &lt;http://dbpedia.org/ontology/country&gt; ?s . ?y &lt;http://dbpedia.org/ontology/country&gt; ?s . ?z &lt;http://dbpedia.org/ontology/country&gt; ?s . FILTER FTContains (?x, "Baguio") . FILTER FTContains (?y, "Quezon City") . FILTER FTContains (?z, "Manila") . Filter FTContains (?s, "official independence in 1945") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?x <http://dbpedia.org/ontology/country> ?s . ?y <http://dbpedia.org/ontology/country> ?s . ?z <http://dbpedia.org/ontology/country> ?s . FILTER FTContains (?x, "Baguio") .  FILTER FTContains (?y, "Quezon City") . FILTER FTContains (?z, "Manila") . Filter FTContains (?s, "official independence in 1945") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013311" category="Around the world">
+<jeopardy_clue> These countries make up Central America.</jeopardy_clue>
+<keyword_title>countries make up Central America</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?c WHERE { ?x &lt;http://dbpedia.org/property/data&gt; ?s . ?s &lt;http://dbpedia.org/ontology/country&gt; ?c . FILTER FTContains (?x, "Central America") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?c WHERE { ?x <http://dbpedia.org/property/data> ?s . ?s <http://dbpedia.org/ontology/country> ?c . FILTER FTContains (?x, "Central America") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013312" category="Novel vocabulary">
+<jeopardy_clue>He may have coined the term daggeroso, meaning inclined to use a dagger it's in his novel Sons and Lovers.</jeopardy_clue>
+<keyword_title>daggeroso inclined to use a dagger novel Sons and Lovers</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?o WHERE { ?x &lt;http://dbpedia.org/ontology/author&gt; ?o . FILTER FTContains (?x, "Sons and Lovers term daggeroso meaning inclined to use a dagger") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?o WHERE { ?x <http://dbpedia.org/ontology/author> ?o . FILTER FTContains (?x, "Sons and Lovers term daggeroso meaning inclined to use a dagger") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013313" category="Movies">
+<jeopardy_clue>This man directed Bela in 3 films, "Glen or Glenda?", "Bride of the Monster" &amp; "Plan 9 from Outer Space".</jeopardy_clue>
+<keyword_title>Directed Bela Glen Glenda Bride Monster Plan 9 Outer Space film</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?o WHERE { ?x &lt;http://dbpedia.org/ontology/director&gt; ?o . ?y &lt;http://dbpedia.org/ontology/director&gt; ?o . ?z &lt;http://dbpedia.org/ontology/director&gt; ?o . FILTER FTContains (?x, "Glen or Glenda film") . FILTER FTContains (?y, "Bride of the Monster film") . FILTER FTContains (?z, "Plan 9 from Outer Space film") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?o WHERE {?x <http://dbpedia.org/ontology/director> ?o . ?y <http://dbpedia.org/ontology/director> ?o . ?z <http://dbpedia.org/ontology/director> ?o . FILTER FTContains (?x, "Glen or Glenda  film") . FILTER FTContains (?y, "Bride of the Monster film") . FILTER FTContains (?z, "Plan 9 from Outer Space  film") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013314" category="Oxymorons">
+<jeopardy_clue>Shh! A 1994 short story collection by Alice Munro is titled Open these.</jeopardy_clue>
+<keyword_title> 1994 short story collection Alice Munro is Open</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?o WHERE { ?o ?p &lt;http://dbpedia.org/resource/Category:Short_story_collections_by_Alice_Munro&gt; . FILTER FTContains (?o, "1994 short story collection titled Open") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?o WHERE { ?o ?p <http://dbpedia.org/resource/Category:Short_story_collections_by_Alice_Munro> . FILTER FTContains (?o, "1994 short story collection titled Open") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013315" category="Authors">
+<jeopardy_clue>His Pickwick Papers was originally published serially under the pseudonym Boz.</jeopardy_clue>
+<keyword_title>Pickwick Papers published pseudonym Boz</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?p WHERE { ?x &lt;http://dbpedia.org/ontology/author&gt; ?p . FILTER FTContains (?x, "Pickwick Papers published serially pseudonym Boz") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?p WHERE { ?x <http://dbpedia.org/ontology/author> ?p . FILTER FTContains (?x, "Pickwick Papers published serially pseudonym Boz") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013316" category="Si the world">
+<jeopardy_clue>This Asian port state-city and country wasn't won in a raffle, but it was founded by one ... Sir Stamford Raffles.</jeopardy_clue>
+<keyword_title>Asian port state-city country Sir Stamford Raffles</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://purl.org/dc/terms/subject&gt; &lt;http://dbpedia.org/resource/Category:City-states&gt; . FILTER FTContains (?s, "Asian port state-city country founded Sir Stamford Raffles") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country> . FILTER FTContains (?s, "Asian port state-city country founded Sir Stamford Raffles") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013317" category="In paris">
+<jeopardy_clue>A Parisian must-see on anyone's list, this museum is the home of the Mona Lisa.</jeopardy_clue>
+<keyword_title>Parisian museum Mona Lisa</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?o WHERE { ?x &lt;http://dbpedia.org/property/museum&gt; ?o . FILTER FTContains (?x, "Mona Lisa") . FILTER FTContains (?o, "Paris museum home Mona Lisa") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?o WHERE { ?x <http://dbpedia.org/property/museum> ?o . FILTER FTContains (?x, "Mona Lisa") . FILTER FTContains (?o, "Paris museum home Mona Lisa") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013318" category="State capitals">
+<jeopardy_clue>This capital's executive mansion was once the home of James Blaine</jeopardy_clue>
+<keyword_title>capital's executive mansion James Blaine</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?o1 WHERE { ?x &lt;http://dbpedia.org/ontology/wikiPageRedirects&gt; ?o . ?o &lt;http://dbpedia.org/ontology/location&gt; ?o1 . FILTER FTContains (?x,"James Blaine house") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?o1 WHERE { ?x <http://dbpedia.org/ontology/wikiPageRedirects> ?o . ?o <http://dbpedia.org/ontology/location> ?o1 . FILTER FTContains (?x, "James Blaine house") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013319" category="People">
+<jeopardy_clue>This successor of James Blaine studied law</jeopardy_clue>
+<keyword_title>successor James Blaine studied law</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?o WHERE { ?x &lt;http://dbpedia.org/ontology/successor&gt; ?o . FILTER FTContains (?o, "studies law") . FILTER FTContains (?x, "James Blaine house") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?o WHERE { ?x <http://dbpedia.org/ontology/successor> ?o . FILTER FTContains (?o, "studies law") . FILTER FTContains (?x, "James G. Blaine house") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013320" category="Around the pacific">
+<jeopardy_clue>The island of Mindanao is a Muslim centre in this mainly Roman Catholic country.</jeopardy_clue>
+<keyword_title>island Mindanao Muslim Roman Catholic country</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?o WHERE { ?z &lt;http://dbpedia.org/ontology/country&gt; ?o . FILTER FTContains (?z, "Mindanao island") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?o WHERE { ?z <http://dbpedia.org/ontology/country> ?o . FILTER FTContains (?z, "Mindanao island") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013321" category=" African-American firsts">
+<jeopardy_clue>This "Beloved" author was the first African-American to win a Nobel Prize for Literature.</jeopardy_clue>
+<keyword_title>Beloved author African-American Nobel Prize Literature</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?x WHERE { ?x &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/NobelLaureatesInLiterature&gt; . FILTER FTContains (?x, "author first African-American win Nobel Prize Literature author beloved") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?x WHERE { ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/NobelLaureatesInLiterature> . FILTER FTContains (?x, "author first African-American win Nobel Prize Literature author beloved") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013322" category="Around the world">
+<jeopardy_clue>Locally, this world capital is spelled WIEN.</jeopardy_clue>
+<keyword_title>world capital WIEN</keyword_title>
+<sparql_ft>
+<escape>
+SELECT DISTINCT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/CapitalsInEurope&gt; . FILTER FTContains(?s, "capital Wien") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT DISTINCT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/CapitalsInEurope> . FILTER FTContains(?s, "capital Wien") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013323" category="Iceland cometh">
+<jeopardy_clue>Like Sweden, Iceland uses currency called this.</jeopardy_clue>
+<keyword_title>Sweden Iceland currency</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?o WHERE { ?x &lt;http://dbpedia.org/ontology/currency&gt; ?o . FILTER FTContains (?o, "Sweden Iceland currency") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?o WHERE { ?x <http://dbpedia.org/ontology/currency> ?o . FILTER FTContains (?o, "Sweden Iceland currency") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013324" category="Important People">
+<jeopardy_clue>This is an ambassador to the US and an active member of the Knesset.</jeopardy_clue>
+<keyword_title>ambassador US active member Knesset</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?x WHERE { ?x &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/IsraeliAmbassadorsToTheUnitedStates&gt; . FILTER FTContains (?x, "active member Knesset") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?x WHERE { ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/IsraeliAmbassadorsToTheUnitedStates> . FILTER FTContains (?x, "active member Knesset") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013325" category="World of knowledge">
+<jeopardy_clue>Seoul, Korea straddles this river which shares its name with the main ethnic group of China.</jeopardy_clue>
+<keyword_title>Seoul Korea river name ethnic group China</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/River&gt; . FILTER FTContains (?s, "shares name China's majority ethnic group") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River> . FILTER FTContains (?s, "shares name China's majority ethnic group") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013326" category="&quot;C&quot; in history">
+<jeopardy_clue>This  prime minister of Canada was nicknamed "Silver-Tongued Laurier", the longest unbroken term of office among Prime Ministers.</jeopardy_clue>
+<keyword_title>Prime minister Canada nicknamed Silver-Tongued Laurier longest unbroken term</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?x WHERE { ?x &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/PrimeMinistersOfCanada&gt; . FILTER FTContains (?x, "longest unbroken term office Prime Ministers") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?x WHERE { ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/PrimeMinistersOfCanada> . FILTER FTContains (?x, "longest unbroken term office Prime Ministers") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013327" category="Little-read books">
+<jeopardy_clue>This author of An American Tragedy also wrote a little-read treatise called Tragic America.</jeopardy_clue>
+<keyword_title>author American Tragedy little-read treatise Tragic America</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?o WHERE { ?x &lt;http://dbpedia.org/ontology/author&gt; ?o . FILTER FTContains (?o, "An American Tragedy and little read treatise called Tragic America") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?o WHERE { ?x <http://dbpedia.org/ontology/author> ?o . FILTER FTContains (?o, "American Tragedy little read treatise Tragic America") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013328" category="Famous names">
+<jeopardy_clue>He was the  U.S. president to authorise nuclear weapons against Japan.</jeopardy_clue>
+<keyword_title>U.S. president authorise nuclear weapons against Japan</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/PresidentsOfTheUnitedStates&gt; . FILTER FTContains (?s, "authorise nuclear weapons against Japan") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/PresidentsOfTheUnitedStates> . FILTER FTContains (?s, "authorise nuclear weapons against Japan") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013329" category="Islands">
+<jeopardy_clue>In 1906 the territory of Papua was established on this island as a protectorate under Australian control.</jeopardy_clue>
+<keyword_title>1906 territory Papua island Australian</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?o WHERE { ?x &lt;http://dbpedia.org/ontology/wikiPageDisambiguates&gt; ?o . ?o &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/Country&gt; . FILTER FTContains (?x, "1906 the territory of Papua island country protectorate Australian control") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?o  WHERE { ?x <http://dbpedia.org/ontology/wikiPageDisambiguates> ?o . ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country>. FILTER FTContains (?x, "1906 the territory of Papua island country protectorate Australian control") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013330" category="Twister">
+<jeopardy_clue>This Texas city, the home of Baylor University, still remembers the tornado of 1953.</jeopardy_clue>
+<keyword_title>Texas city Baylor University tornado 1953</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?o WHERE { ?x &lt;http://dbpedia.org/ontology/city&gt; ?o . FILTER FTContains (?x, "Baylor University the tornado of 1953") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?o WHERE { ?x <http://dbpedia.org/ontology/city> ?o . FILTER FTContains (?x, "Baylor University the tornado of 1953") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+
+<topic id="2013331" category="Historic chicago">
+<jeopardy_clue>A graduate of Chicago's De Paul University, he was mayor from 1955 to 1976.</jeopardy_clue>
+<keyword_title>graduate Chicago's De Paul University mayor 1955 1976</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/DePaulUniversityAlumni&gt; . ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/Politician&gt; . FILTER FTContains (?s, "mayor from 1955 to 1976") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/DePaulUniversityAlumni> . ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician> . FILTER FTContains (?s, "mayor from 1955 to 1976") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013332" category="Russian cities">
+<jeopardy_clue>Grozny is the capital city of this region that has waged a struggle for independence since the mid-1990s.</jeopardy_clue>
+<keyword_title>Grozny capital struggle independence 1990s</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?o WHERE { ?x &lt;http://dbpedia.org/property/capitalOf&gt; ?o . FILTER FTContains (?x, "Grozny") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?o WHERE { ?x <http://dbpedia.org/property/capitalOf> ?o . FILTER FTContains (?x, "Grozny") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013333" category="U.S. Presidents">
+<jeopardy_clue>In 1997 a Houston airport was renamed this in honour of  recent president.</jeopardy_clue>
+<keyword_title>1997  Houston airport president</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE {  ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/BuildingsAndMonumentsHonoringAmericanPresidents&gt; . FILTER FTContains(?s, "1997 a Houston airport ").}
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/BuildingsAndMonumentsHonoringAmericanPresidents> . FILTER FTContains(?s, "1997 a Houston airport ").}]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013334" category="Foreign colleges and universities">
+<jeopardy_clue>The university of this city grew out of the cathedral schools of Notre Dame.</jeopardy_clue>
+<keyword_title>university cathedral schools Notre Dame</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/University&gt; . FILTER FTContains (?s, "university cathedral schools Notre Dame") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/University> . FILTER FTContains (?s, "university cathedral schools Notre Dame") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013335" category="Oprah's book club">
+<jeopardy_clue>The first nonfiction work selected, The Heart of a Woman is volume 4 of this poet's autobiography.</jeopardy_clue>
+<keyword_title>The Heart of a Woman poet's autobiography</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?x &lt;http://dbpedia.org/ontology/author&gt; ?s . FILTER FTContains (?x, "The Heart of a Woman") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?x <http://dbpedia.org/ontology/author> ?s . FILTER FTContains (?x, "The Heart of a Woman") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+<topic id="2013336" category="Monet's cronies">
+<jeopardy_clue>His A Sunday Afternoon on the Island of La Grande Jatte is in this museum.</jeopardy_clue>
+<keyword_title>A Sunday Afternoon on the Island of La Grande Jatte museum</keyword_title>
+<sparql_ft>
+<escape>
+ SELECT ?s ?o WHERE { ?x &lt;http://dbpedia.org/property/artist&gt; ?s. ?x &lt;http://dbpedia.org/property/museum&gt; ?o . FILTER FTContains (?x, "A Sunday Afternoon on the Island of La Grande Jatte") . }
+</escape>
+<verbatim>
+<![CDATA[ SELECT ?s WHERE { ?x <http://dbpedia.org/property/artist> ?s .?x <http://dbpedia.org/property/museum> ?o. FILTER FTContains (?x, "A Sunday Afternoon on the Island of La Grande Jatte") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013337" category="U.S. History 101">
+<jeopardy_clue>In the Kennedy assassination this governor of Texas was seriously injured.</jeopardy_clue>
+<keyword_title>Kennedy assassination governor of Texas seriously injured</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/GovernorsOfTexas&gt; . FILTER FTContains (?s, "Kennedy assassination seriously injured") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/GovernorsOfTexas> . FILTER FTContains (?s, "Kennedy assassination seriously injured") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013338" category="Literary tourism">
+<jeopardy_clue>Undershaw, the home where he wrote The Hound of the Baskervilles, is now a hotel in Surrey, England.</jeopardy_clue>
+<keyword_title>Undershaw home The Hound of the Baskervilles hotel Surrey England</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?x &lt;http://dbpedia.org/ontology/author&gt; ?s . FILTER FTContains (?x, "The Hound of the Baskervilles") . }
+</escape>
+<verbatim>
+<![CDATA[ SELECT ?s WHERE { ?x <http://dbpedia.org/ontology/author> ?s . FILTER FTContains (?x, "The Hound of the Baskervilles") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013339" category="U.S. Cities">
+<jeopardy_clue>It's the seat of the Florida county formerly known as Dade.</jeopardy_clue>
+<keyword_title>seat Florida county Dade</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?o WHERE { ?s &lt;http://dbpedia.org/ontology/countySeat&gt; ?o . FILTER FTContains (?s, "Florida county seat Dade") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?o WHERE { ?s <http://dbpedia.org/ontology/countySeat> ?o . FILTER FTContains (?s, "Florida county seat Dade") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013340" category="World capitals">
+<jeopardy_clue>During the Middle Ages, this capital was mostly confined to Stadsholmen &amp; Riddarholmen islands.</jeopardy_clue>
+<keyword_title>Middle Ages capital Stadsholmen Riddarholmen islands</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?x &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?s . ?y &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; ?s . FILTER FTContains (?x, "Stadsholmen") . FILTER FTContains (?y,"Riddarholmen") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?s . ?y <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> ?s . FILTER FTContains (?x, "Stadsholmen") . FILTER FTContains (?y,"Riddarholmen") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013341" category="World capitals">
+<jeopardy_clue>Alexander Nevsky Cathedral in the centre of this Bulgarian city celebrates its liberation from the Turks.</jeopardy_clue>
+<keyword_title>Alexander Nevsky Cathedral Bulgarian city liberation Turks</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?l WHERE {  ?o &lt;http://dbpedia.org/property/province&gt; ?l . FILTER FTContains (?x, "Alexander Nevsky Cathedral") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?l WHERE { ?o <http://dbpedia.org/property/province> ?l . FILTER FTContains (?o, "Alexander Nevsky Cathedral") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013342" category="Parisians">
+<jeopardy_clue>This saint taught at the University of Paris while working on "Summa Theologica" in the 13th century.</jeopardy_clue>
+<keyword_title>saint University Paris Summa Theologica 13th century</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://dbpedia.org/property/notableworks&gt; ?l . FILTER FTContains (?l, "taught University Paris Summa Theologica 13th century") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://dbpedia.org/property/notableworks> ?l . FILTER FTContains (?l, "taught University Paris Summa Theologica 13th century") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013343" category="Food">
+<jeopardy_clue>What is a famous Indian Cuisine dish that mainly contains rice, dhal, vegetables, roti and papad?</jeopardy_clue>
+<keyword_title>Indian Cuisine dish rice dhal vegetables roti papad</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s ?p &lt;http://dbpedia.org/resource/Category:Indian_cuisine&gt; . FILTER FTContains (?s, " rice dhal vegetables roti papad") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s ?p <http://dbpedia.org/resource/Category:Indian_cuisine> . FILTER FTContains (?s, "rice  dhal vegetables roti papad") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013344" category="Cricket">
+<jeopardy_clue>Who is the famous One Day Cricket  and  an Idian Cricket Test Captain also known as "India's Best Schoolboy Cricketer"?</jeopardy_clue>
+<keyword_title>One Day Cricket Idian Test Captain India's Best Schoolboy Cricketer</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/IndianTestCaptains&gt; . FILTER FTContains (?s, "India's Best Schoolboy Cricketer") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/IndianTestCaptains> . FILTER FTContains (?s, "India's Best Schoolboy Cricketer") . }]]>
+</verbatim>
+</sparql_ft>
+</topic> 
+
+
+<topic id="2013345" category="Official language">
+<jeopardy_clue>In which country is the German language the predominant spoken language?</jeopardy_clue>
+<keyword_title>country German language</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/Country&gt; . FILTER FTContains (?s, "predominant spoken German language") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Country> . FILTER FTContains (?s, "predominant spoken German language") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013346" category="Music">
+<jeopardy_clue>Who is the greatest guitarist of all times?</jeopardy_clue>
+<keyword_title>greatest guitarist</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://dbpedia.org/ontology/instrument&gt; &lt;http://dbpedia.org/resource/Guitar&gt; . FILTER FTContains (?s, "greatest guitarist all times") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://dbpedia.org/ontology/instrument> <http://dbpedia.org/resource/Guitar> . FILTER FTContains (?s, "greatest guitarist all times") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013347" category="Sports">
+<jeopardy_clue>Which England football player has been the highest paid footballer of the world?</jeopardy_clue>
+<keyword_title>England football player highest paid</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://dbpedia.org/ontology/team&gt; &lt;http://dbpedia.org/resource/England_national_football_team&gt; . FILTER FTContains (?s, "world's highest-paid footballer") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/England_national_football_team> . FILTER FTContains (?s, "world's highest-paid footballer") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013348" category="Theatre">
+<jeopardy_clue>Who became their prima ballerina of Bolshoi Theatre in 1960?</jeopardy_clue>
+<keyword_title> prima ballerina Bolshoi Theatre 1960</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/SpanishBalletDancers&gt; . FILTER FTContains (?s, "1960 prima ballerina Bolshoi Theatre") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/SpanishBalletDancers> . FILTER FTContains (?s, "1960 prima ballerina Bolshoi Theatre") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013349" category="Movies">
+<jeopardy_clue> A celebrity couple where the husband "is described as one of the world's most attractive men" and wife has been cited as the world's "most beautiful woman".</jeopardy_clue>
+<keyword_title> celebrity couple husband world's most attractive men wife beautiful woman</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?o WHERE { ?s &lt;http://dbpedia.org/property/partner&gt; ?o. ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/Actor109765278&gt; . ?o &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/Actor109765278&gt; . FILTER FTContains (?s "world's most attractive male actor") . FILTER FTContains (?o, "most beautiful female actor") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?o WHERE { ?s <http://dbpedia.org/property/partner> ?o. ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Actor109765278> . ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Actor109765278> . FILTER FTContains (?s "world's most attractive male actor") . FILTER FTContains (?o, "most beautiful female actor") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013350" category="Awards">
+<jeopardy_clue>An Academy award winning  movie starred by celebrity couples.</jeopardy_clue>
+<keyword_title>Academy award movie celebrity couples</keyword_title>
+<sparql_ft>
+<escape>
+SELECT Distinct ?s ?o WHERE { ?s &lt;http://dbpedia.org/property/partner&gt; ?o . ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/Actor109765278&gt; . ?o &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/Actor109765278&gt; . ?m &lt;http://dbpedia.org/ontology/starring&gt; ?s . ?m &lt;http://dbpedia.org/ontology/starring&gt; ?o . FILTER FTContains(?m, "Academy Awards winning movie") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT Distinct ?s ?o WHERE { ?s <http://dbpedia.org/property/partner> ?o . ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Actor109765278> . ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Actor109765278> . ?m <http://dbpedia.org/ontology/starring> ?s . ?m <http://dbpedia.org/ontology/starring> ?o . FILTER FTContains(?m, "Academy Awards winning movie") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013351" category="Movies and Music">
+<jeopardy_clue>Which famous person has won award for acting and singing?</jeopardy_clue>
+<keyword_title>most famous award winning actor singer</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://dbpedia.org/property/medium&gt; &lt;http://dbpedia.org/resource/Music&gt; . ?s &lt;http://dbpedia.org/property/occupation&gt; &lt;http://dbpedia.org/resource/Actor&gt; . FILTER FTContains (?s, "famous award winning actor singer") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://dbpedia.org/property/occupation> <http://dbpedia.org/resource/Singing> . ?s <http://dbpedia.org/property/occupation> <http://dbpedia.org/resource/Actor> . FILTER FTContains (?s, "famous award winning actor singer") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013352" category="Music festivals">
+<jeopardy_clue>Which rock festival in Australia is related to "Beenie Man and Odd Future controversy"?</jeopardy_clue>
+<keyword_title>rock festival Australia Beenie Man and Odd Future controversy</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/RockFestivalsInAustralia&gt; . FILTER FTContains (?s, "Beenie Man and Odd Future controversy") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/RockFestivalsInAustralia> . FILTER FTContains (?s, "Beenie Man and Odd Future controversy") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013353" category="Sports">
+<jeopardy_clue>Which American twins are also very famous  American professional tennis double players?</jeopardy_clue>
+<keyword_title>American twins famous  American professional tennis double players</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://purl.org/dc/terms/subject&gt; &lt;http://dbpedia.org/resource/Category:Twin_people_from_the_United_States&gt; . FILTER FTContains (?s, "American professional tennis double players") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Twin_people_from_the_United_States> . FILTER FTContains (?s, "American professional tennis double players") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013354" category="Business world">
+<jeopardy_clue>Which business family was greatly involved in saving tens of thousands  Jewish lives during World War II?</jeopardy_clue>
+<keyword_title>business family saving tens of thousands Jewish  World War II</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/BusinessFamilies&gt; . FILTER FTContains (?s, "saving thousands Jewish lives") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/BusinessFamilies> . FILTER FTContains (?s, "saving thousands Jewish lives") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013355" category="Science">
+<jeopardy_clue>Which mathematician turned computer scientist  was designated as one of MIT's six inaugural MacVicar Faculty Fellows?</jeopardy_clue>
+<keyword_title>mathematician computer scientist MIT's six inaugural MacVicar Faculty Fellows</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/AmericanComputerScientists&gt; . ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/AmericanMathematicians&gt; . FILTER FTContains (?s, "MIT's six inaugural MacVicar Faculty Fellows") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/AmericanComputerScientists> . ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/AmericanMathematicians> . FILTER FTContains (?s, "MIT's six inaugural MacVicar Faculty Fellows") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013356" category="Science">
+<jeopardy_clue>Which German mathematicians were also science fiction writers?</jeopardy_clue>
+<keyword_title>German mathematicians science fiction writers</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/GermanMathematicians&gt; . FILTER FTContains ("?s, "science fiction writer") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/GermanMathematicians> . FILTER FTContains ("?s, "science fiction writer") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013357" category="Inventions">
+<jeopardy_clue>Who invented the telescope?</jeopardy_clue>
+<keyword_title>invented telescope</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/ScientificInstrumentMakers&gt; . FILTER FTContains (?s, "invented telescope") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/ScientificInstrumentMakers> . FILTER FTContains (?s, "invented telescope") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013358" category="Music">
+<jeopardy_clue>Which very famous music composer converted to Islam in 1989?</jeopardy_clue>
+<keyword_title>famous music composer converted Islam 1989</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/IndianMusicians&gt; . ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/IndianComposers&gt; . FILTER FTContains (?s, "converted to Islam in 1989") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/IndianMusicians> . ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/IndianComposers> . FILTER FTContains (?s, "converted to Islam in 1989") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013359" category="War">
+<jeopardy_clue>Which are the most famous civic-military airports?</jeopardy_clue>
+<keyword_title>most famous civic-military airports</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/Airport&gt; . FILTER FTContains(?s, "civic-military airport") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Airport> . FILTER FTContains(?s, "civic-military airport") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013360" category="Movies">
+<jeopardy_clue>What are famous couples of actors acting in crime movies?</jeopardy_clue>
+<keyword_title>famous couples actors crime movies</keyword_title>
+<sparql_ft>
+<escape>
+SELECT Distinct ?s ?o WHERE { ?s &lt;http://dbpedia.org/property/partner&gt; ?o . ?m1 &lt;http://dbpedia.org/ontology/starring&gt; ?s . ?m1 &lt;http://dbpedia.org/ontology/starring&gt; ?o . FILTER FTContains (?m1, "crime movie") . }
+</escape>
+<verbatim>
+<![CDATA[ SELECT Distinct ?s ?o WHERE { ?s <http://dbpedia.org/property/partner> ?o . ?m1 <http://dbpedia.org/ontology/starring> ?s . ?m1 <http://dbpedia.org/ontology/starring> ?o . FILTER FTContains (?m1, "crime movie") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013361" category="Places and People">
+<jeopardy_clue>What are the most beautiful railway stations in the world, and in which cities are they located?</jeopardy_clue>
+<keyword_title>most beautiful railway stations world cities located</keyword_title>
+<sparql_ft>
+<escape>
+ SELECT ?s ?c WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/Station&gt; . ?s &lt;http://dbpedia.org/ontology/location&gt; ?c . FILTER FTContains (?s, "most beautiful railway station") . }
+</escape>
+<verbatim>
+<![CDATA[ SELECT ?s ?c WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Station> . ?s <http://dbpedia.org/ontology/location> ?c . FILTER FTContains (?s, "most beautiful railway station") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013362" category="War">
+<jeopardy_clue>What are famous historical battlefields, and which opponents fought there?</jeopardy_clue>
+<keyword_title>famous historical battlefields opponents fought</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?c WHERE { ?s ?p &lt;http://dbpedia.org/ontology/MilitaryConflict&gt; . ?s &lt;http://dbpedia.org/ontology/isPartOfMilitaryConflict&gt; ?m . ?m &lt;http://dbpedia.org/property/combatant&gt; ?c . FILTER FTContains (?s, "most famous battle") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?c WHERE { ?s ?p <http://dbpedia.org/ontology/MilitaryConflict> . ?s <http://dbpedia.org/ontology/isPartOfMilitaryConflict> ?m . ?m <http://dbpedia.org/property/combatant> ?c . FILTER FTContains (?s, "most famous battle") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013363" category="Birds and Animals">
+<jeopardy_clue>Which kinds of birds cannot fly?</jeopardy_clue>
+<keyword_title>birds cannot fly</keyword_title>
+<sparql_ft>
+<escape>
+ SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/FlightlessBirds&gt; . }
+</escape>
+<verbatim>
+<![CDATA[ SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/FlightlessBirds> . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013364" category="Politics">
+<jeopardy_clue>Which German politician is a successor of another politician who stepped down before his or her actual term was over, and what is the name of their political ancestor?</jeopardy_clue>
+<keyword_title>German politicians successor other stepped down before actual term name ancestor</keyword_title>
+<sparql_ft>
+<escape>
+ SELECT ?s ?s1 WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/GermanPoliticians&gt; . ?s1 &lt;http://dbpedia.org/property/successor&gt; ?s. FILTER FTContains (?s, "stepped down early") . }
+</escape>
+<verbatim>
+<![CDATA[ SELECT ?s ?s1 WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/GermanPoliticians> . ?s1 <http://dbpedia.org/property/successor> ?s. FILTER FTContains (?s, "stepped down early") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013365" category="Birds and Animals">
+<jeopardy_clue>Which animals lay eggs but are considered to be mammals?</jeopardy_clue>
+<keyword_title>animals lay eggs mammals</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt;&lt;http://dbpedia.org/ontology/Mammal&gt; . FILTER FTContains (?s, "lays eggs") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Mammal> . FILTER FTContains (?s, "lays eggs") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013366" category="Politics">
+<jeopardy_clue>What do Angela Merkel and the 14th Dalai Lama have in common (except for being instances of the class "person")?</jeopardy_clue>
+<keyword_title>Angela Merkel 14th Dalai Lama common</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { &lt;http://dbpedia.org/resource/Angela_Merkel&gt; ?p1 ?s . &lt;http://dbpedia.org/resource/14th_Dalai_Lama&gt; ?p2 ?s . FILTER ( ?s != ;&lt;http://dbpedia.org/ontology/Person&gt;) . FILTER ( ?s != &lt;http://schema.org/Person&gt;) . FILTER ( ?s != &lt;http://dbpedia.org/class/yago/Person100007846&gt;) . FILTER ( ?s != &lt;http://xmlns.com/foaf/0.1/Person&gt;) . }
+</escape>
+<verbatim>
+<![CDATA[ SELECT ?s WHERE { <http://dbpedia.org/resource/Angela_Merkel> ?p1 ?s . <http://dbpedia.org/resource/14th_Dalai_Lama> ?p2 ?s . FILTER ( ?s != <http://dbpedia.org/ontology/Person>) . FILTER ( ?s != <http://schema.org/Person>) . FILTER ( ?s != <http://dbpedia.org/class/yago/Person100007846>) . FILTER ( ?s != <http://xmlns.com/foaf/0.1/Person>) . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013367" category="Movies">
+<jeopardy_clue>Which movie directors directed a "block buster" movie?</jeopardy_clue>
+<keyword_title>movie directors directed a block buster</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?m WHERE { ?m ?p &lt;http://dbpedia.org/class/yago/English-languAgeFilms&gt; . ?s &lt;http://dbpedia.org/ontology/director&gt; ?o . FILTER FTContains (?m ,"Block Buster") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?m WHERE { ?m ?p <http://dbpedia.org/class/yago/English-languAgeFilms> . ?s <http://dbpedia.org/ontology/director> ?o . FILTER FTContains (?m ,"Block Buster") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013368" category="Science">
+<jeopardy_clue>Which famous computer scientists disappeared at sea?</jeopardy_clue>
+<keyword_title>famous computer scientists disappeared at sea</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/Scientist&gt; . ?s &lt;http://dbpedia.org/ontology/field&gt; &lt;http://dbpedia.org/resource/Computer_science&gt; . FILTER FTContains (?s, "disappeared at sea") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist> . ?s <http://dbpedia.org/ontology/field> <http://dbpedia.org/resource/Computer_science> . FILTER FTContains (?s, "disappeared at sea") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013369" category="Science">
+<jeopardy_clue>Which famous scientists are or were vegetarians?</jeopardy_clue>
+<keyword_title>famous scientists vegetarians</keyword_title>
+<sparql_ft>
+<escape>
+ SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/Scientist&gt; . FILTER FTContains (?s ,"vegetarian") . }
+</escape>
+<verbatim>
+<![CDATA[ SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist> . FILTER FTContains (?s ,"vegetarian") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013370" category="Politics">
+<jeopardy_clue>Which famous politicians are or were vegetarians?</jeopardy_clue>
+<keyword_title>famous politicians vegetarians</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://umbel.org/umbel/rc/Politician&gt; . FILTER FTContains (?s , "vegetarians") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://umbel.org/umbel/rc/Politician> . FILTER FTContains (?s , "vegetarians") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+
+<topic id="2013371" category="Rivers and Confluences">
+<jeopardy_clue>Which are the famous rivers formed of a confluence of two rivers on which dams have been constructed?</jeopardy_clue>
+<keyword_title>famous river confluence dam constructed</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?r1 ?r2 WHERE { ?s &lt;http://dbpedia.org/ontology/origin&gt; ?r1 . ?s &lt;http://dbpedia.org/ontology/origin&gt; ?r2 . ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/River&gt; . ?r1 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/River&gt; . ?r2 &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/River&gt;. FILTER FTContains ( ?s, "Dam constructed" ) . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?r1 ?r2  WHERE { ?s <http://dbpedia.org/ontology/origin> ?r1 . ?s <http://dbpedia.org/ontology/origin> ?r2 . ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River> . ?r1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River> . ?r2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River> . FILTER (?r1!= ?r2) . FILTER FTContains ( ?s, "Dam constructed" ) . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+
+<topic id="2013372" category="Geography">
+<jeopardy_clue>Which mountain range is bordered by another mountain range and is a popular sightseeing and sports destination?</jeopardy_clue>
+<keyword_title>popular sightseeing and sports destination mountain range bordered</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?p WHERE { ?m &lt;http://dbpedia.org/ontology/border&gt; ?p . ?p &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/MountainRange&gt; . FILTER (?p, "popular sightseeing and sports destination") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?p WHERE { ?m <http://dbpedia.org/ontology/border> ?p . ?p <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MountainRange> . FILTER (?p, "popular sightseeing and sports destination") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013373" category="Geography">
+<jeopardy_clue>Which gulfs of the Indian Ocean are frequently visited by sharks?</jeopardy_clue>
+<keyword_title>frequently visited sharks gulf Indian Ocean</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s ?o &lt;http://dbpedia.org/class/yago/GulfsOfTheIndianOcean&gt; . FILTER FTContains (?s, "frequently visited sharks") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s ?o <http://dbpedia.org/class/yago/GulfsOfTheIndianOcean> . FILTER FTContains (?s, "frequently visited sharks") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013374" category="Sports">
+<jeopardy_clue>Which baseball player scored the most homeruns while playing in the national league?</jeopardy_clue>
+<keyword_title>baseball player most homeruns national league</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?x WHERE { ?x &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/ontology/BaseballPlayer&gt; . FILTER FTContains (?x, "most homeruns national league") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?x WHERE { ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/BaseballPlayer> . FILTER FTContains (?x, "most homeruns national league") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013375" category="Action">
+<jeopardy_clue>Real and reel life couples, where the husband is one of the world's most attractive men and wife is world's "most beautiful" woman.</jeopardy_clue>
+<keyword_title>Real  reel life couples  husband world's most attractive men  wife world's most beautiful woman</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s1 ?s2 WHERE { ?s1 &amp;lt;http://dbpedia.org/ontology/partner&amp;gt; ?s2. ?s1 &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/class/yago/AmericanFilmActors&amp;gt;. ?s2 &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/class/yago/AmericanFilmActors&amp;gt;. FILTER FTContains (?s1, "one of the world's most attractive men"). FILTER FTContains (?s2, "world's most beautiful woman").}
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s1 ?s2 WHERE {  ?s1   <http://dbpedia.org/ontology/partner>  ?s2. ?s1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/AmericanFilmActors>. ?s2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/AmericanFilmActors>. FILTER FTContains (?s1, "one of the world's most attractive men"). FILTER FTContains (?s2, "world's most beautiful woman").}]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013376" category="Travel">
+<jeopardy_clue>This capital of this largest  European country is a world's leading tourism destination. </jeopardy_clue>
+<keyword_title>capital largest  European country world's leading tourism destination</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s1 ?s2 WHERE { ?s1 &amp;lt;http://dbpedia.org/ontology/country&amp;gt; ?s2. ?s1 &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/class/yago/CapitalsInEurope&amp;gt;. FILTER FTContains (?s1, world's leading tourism destination").}
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s1 ?s2 WHERE { ?s1 <http://dbpedia.org/ontology/country> ?s2. ?s1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/CapitalsInEurope>. FILTER FTContains (?s1, world's leading tourism destination").}]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013377" category="Sports">
+<jeopardy_clue>This tennis couple where one is a French Opens Champion and the second holds the record for the fastest serve, have the same residence at this place.</jeopardy_clue>
+<keyword_title>tennis couple French Opens Champion holds record  fastest serve  have same residence</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s1 ?s2 ?r1 WHERE { ?s1 &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/class/yago/FrenchOpenChampions&amp;gt;. ?s1 &amp;lt;http://dbpedia.org/ontology/residence&amp;gt; ?r1. ?s2 &amp;lt;http://dbpedia.org/ontology/residence&amp;gt; ?r1. FILTER FTContains (?s2," holds the record for the fastest serve"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s1 ?s2 ?r1 WHERE { ?s1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://dbpedia.org/class/yago/FrenchOpenChampions>. ?s1 <http://dbpedia.org/ontology/residence> ?r1. ?s2 <http://dbpedia.org/ontology/residence> ?r1. FILTER FTContains (?s2," holds the record for the fastest serve"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013378" category="Rivers and Golden Lakes">
+<jeopardy_clue>This lake is popular among gold miners and has its inflow from river that begins at a confluence.</jeopardy_clue>
+<keyword_title>lake popular among gold miners  inflow river begins confluence</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s1 ?s2 WHERE { ?s1 &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/ontology/Lake&amp;gt;. ?s1 &amp;lt;http://dbpedia.org/ontology/inflow&amp;gt; ?s2. FILTER FTContains(?s2 , " from river that begins at a confluence"). FILTER FTContains (?s1, " popular among gold miners").}
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s1 ?s2 WHERE { ?s1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Lake>. ?s1 <http://dbpedia.org/ontology/inflow> ?s2. FILTER FTContains(?s2 , " from river that begins at a confluence"). FILTER FTContains (?s1, " popular among gold miners").}]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013379" category="World Heritage">
+<jeopardy_clue>This world heritage site has a 26-ton bell known as "Bell of the Three Kings"</jeopardy_clue>
+<keyword_title>world heritage site  26-ton bell known Bell of the Three Kings</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s1 WHERE { ?s1 &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/ontology/WorldHeritageSite&amp;gt; . FILTER FTContains (?s1, "has a 26-ton bell known as Bell of the Three Kings").}
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s1 WHERE { ?s1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://dbpedia.org/ontology/WorldHeritageSite> . FILTER FTContains (?s1, "has a 26-ton bell known as Bell of the Three Kings").}]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013380" category="Science and Music">
+<jeopardy_clue>These famous scientists played a music instrument.</jeopardy_clue>
+<keyword_title>famous  scientists played  music instrument</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s1 WHERE { ?s1 &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/ontology/Scientist&amp;gt; . FILTER FTContains (?s1, "played a music instrument") . }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s1 WHERE { ?s1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://dbpedia.org/ontology/Scientist> . FILTER FTContains (?s1, "played a music instrument") . }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013381" category="Pop and Leaders">
+<jeopardy_clue>This "King of Pop" died in the city where this daughter of a Christian church founder was the city controller.</jeopardy_clue>
+<keyword_title>King of Pop died  city daughter Christian church founder city controller</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?o2 WHERE { ?s &amp;lt;http://dbpedia.org/ontology/deathPlace&amp;gt; ?o. ?o &amp;lt;http://dbpedia.org/ontology/leaderName&amp;gt; ?o2. FILTER FTContains ( ?s, "King of Pop"). FILTER FTContains (?o2, " daughter of a Christian church founder "). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?o2 WHERE { ?s <http://dbpedia.org/ontology/deathPlace> ?o. ?o <http://dbpedia.org/ontology/leaderName> ?o2. FILTER FTContains ( ?s, "King of Pop"). FILTER FTContains (?o2, " daughter of a Christian church founder "). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013382" category="Noble People">
+<jeopardy_clue>This female Christian missionary and this anti-apartheid activist are Noble Peace Prize laureates</jeopardy_clue>
+<keyword_title>female Christian missionary  anti-apartheid activist Noble Peace Prize laureates</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s1 ?s2 WHERE { ?s1 &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/class/yago/NobelPeacePrizeLaureates&amp;gt;. ?s2 &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/class/yago/NobelPeacePrizeLaureates&amp;gt;. FILTER FTContains (?s1, "female Christian missionary"). FILTER FTContains (?s2, "this anti-apartheid activist"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s1 ?s2 WHERE { ?s1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/NobelPeacePrizeLaureates>.  ?s2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/NobelPeacePrizeLaureates>. FILTER FTContains (?s1, "female Christian missionary"). FILTER FTContains (?s2, "this anti-apartheid activist"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013383" category="Market and Software">
+<jeopardy_clue>This cloud-based talent management solutions provider is owned by the third-largest software maker of the world based in California.</jeopardy_clue>
+<keyword_title>cloud-based talent management solutions provider owned third-largest software maker world California</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?o WHERE { ?s &amp;lt;http://dbpedia.org/ontology/owningCompany&amp;gt; ?o. ?o &amp;lt;http://dbpedia.org/ontology/foundationPlace&amp;gt; ?l. FILTER FTContains (?o, " third-largest software maker "). FILTER FTContains (?s, " cloud-based talent management solutions"). FILTER FTContains (?l, "California"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?o WHERE { ?s <http://dbpedia.org/ontology/owningCompany> ?o. ?o <http://dbpedia.org/ontology/foundationPlace> ?l. FILTER FTContains (?o, " third-largest software maker "). FILTER FTContains (?s, "  cloud-based talent management solutions"). FILTER FTContains (?l, "California"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013384" category="Market and Accounting">
+<jeopardy_clue>This business consulting company's predecessor is this accounting firm.</jeopardy_clue>
+<keyword_title>business consulting company's predecessor accounting  firm</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?o WHERE { ?s &amp;lt;http://dbpedia.org/ontology/service&amp;gt; ?s2. ?s &amp;lt;http://dbpedia.org/ontology/predecessor&amp;gt; ?o. FILTER FTContains (?o, "accounting firm"). FILTER FTContains (?s2, "business consulting"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?o WHERE { ?s <http://dbpedia.org/ontology/service>  ?s2. ?s <http://dbpedia.org/ontology/predecessor> ?o. FILTER FTContains (?o, "accounting firm"). FILTER FTContains (?s2, "business consulting"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013385" category="Sports">
+<jeopardy_clue>This French tennis player holds record for winning French Open tournament eight  times.</jeopardy_clue>
+<keyword_title>French tennis player holds record winning French Open  tournament eight  times</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/class/yago/FrenchTennisPlayers&amp;gt;. FILTER FTContains (?s, "record of winning the tournament eight times "). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://dbpedia.org/class/yago/FrenchTennisPlayers>. FILTER FTContains (?s, "record of winning the tournament eight times"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013386" category="Strange Names">
+<jeopardy_clue>This Guitar player released music with this record company that chose their name as they were all new to business - like virgins.</jeopardy_clue>
+<keyword_title>Guitar player released music record company chose name new to business virgins</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?o WHERE { ?s &amp;lt;http://dbpedia.org/ontology/recordLabel&amp;gt; ?o. ?s &amp;lt;http://dbpedia.org/ontology/instrument&amp;gt; ?o2. FILTER FTContains (?s, " name as they were all new to business like virgins"). FILTER FTContains (?o2, "Guitar"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?o WHERE { ?s <http://dbpedia.org/ontology/recordLabel> ?o. ?s <http://dbpedia.org/ontology/instrument> ?o2. FILTER FTContains (?s, " name as they were all new to business like virgins"). FILTER FTContains (?o2, "Guitar"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013387" category="TV Shows">
+<jeopardy_clue>This American narrator of this television show is a Bachelor of Music in musical theatre.</jeopardy_clue>
+<keyword_title> American narrator  television show Bachelor Music musical theatre</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?o ?s WHERE { ?s &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/ontology/TelevisionShow&amp;gt;. ?s &amp;lt;http://dbpedia.org/ontology/narrator&amp;gt; ?o. ?o &amp;lt;http://dbpedia.org/ontology/birthPlace&amp;gt; &amp;lt;http://dbpedia.org/resource/United_States&amp;gt;. FILTER FTContains (?s, "Bachelor of Music in musical theatre"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?o ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>. ?s <http://dbpedia.org/ontology/narrator> ?o. ?o <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/United_States>. FILTER FTContains (?s, "Bachelor of Music in musical theatre"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013388" category="Maths ">
+<jeopardy_clue>This mathematician, born in this country that currently comprises sixteen states, referred to as "prince of mathematicians", made foundational contributions in the 19th century.  </jeopardy_clue>
+<keyword_title>mathematician born country  currently comprises sixteen states referred to as prince of mathematicians made foundational contributions 19th century</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?o WHERE { ?s &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/class/yago/19th-centuryMathematicians&amp;gt;. ?s &amp;lt;http://dbpedia.org/ontology/nationality&amp;gt; ?o. FILTER FTContains (?s, "the Prince of Mathematicians"). FILTER FTContains (?o, "country that currently comprises sixteen states"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?o WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/19th-centuryMathematicians>. ?s <http://dbpedia.org/ontology/nationality> ?o. FILTER FTContains (?s, "the Prince of Mathematicians").  FILTER FTContains (?o, "country that currently comprises sixteen states"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013389" category="Purple">
+<jeopardy_clue>This world heritage literally translates to "Purple Forbidden City".</jeopardy_clue>
+<keyword_title>world heritage literally translates Purple Forbidden City</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/ontology/WorldHeritageSite&amp;gt;. FILTER FTContains (?s, "Purple Forbidden City"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/WorldHeritageSite>. FILTER FTContains (?s, "Purple Forbidden City"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013390" category="Leaders and Countries">
+<jeopardy_clue>This city of this country with a federal government is currently led this co-founder of AJS.</jeopardy_clue>
+<keyword_title>city country federal government currently led co-founder AJS</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?o1 WHERE { ?s &amp;lt;http://dbpedia.org/ontology/country&amp;gt; ?o. ?o &amp;lt;http://dbpedia.org/ontology/governmentType&amp;gt; &amp;lt;http://dbpedia.org/resource/Federalism&amp;gt;. ?s &amp;lt;http://dbpedia.org/ontology/leaderName&amp;gt; ?o1. FILTER FTContains (?o1, "co-founder of AJS"). } 
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?o1 ?o WHERE { ?s <http://dbpedia.org/ontology/country> ?o. ?o <http://dbpedia.org/ontology/governmentType>  <http://dbpedia.org/resource/Federalism>. ?s <http://dbpedia.org/ontology/leaderName>  ?o1. FILTER FTContains (?o1, "co-founder of AJS"). } ]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013391" category="Movies">
+<jeopardy_clue>This Coen brothers movie about a young New York City playwright stars John Turturro.</jeopardy_clue>
+<keyword_title>Coen brothers movie about young New York City playwright stars John Turturro</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?o WHERE { ?s &amp;lt;http://dbpedia.org/ontology/starring&amp;gt; ?o. ?s &amp;lt;http://dbpedia.org/ontology/director&amp;gt; &amp;lt;http://dbpedia.org/resource/Coen_brothers&amp;gt; . FILTER FTContains (?s, "about a young New York City playwright ") . FILTER FTContains (?o, "John Turturro"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?o WHERE {  ?s <http://dbpedia.org/ontology/starring> ?o.  ?s <http://dbpedia.org/ontology/director> <http://dbpedia.org/resource/Coen_brothers> .  FILTER FTContains (?s, "about  a young New York City playwright ") . FILTER FTContains (?o, "John Turturro"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013392" category="Strange Silence">
+<jeopardy_clue>This most influential figures of the silent era starred in this silent movie that received an Academy Awards nomination for Best Sound Recording</jeopardy_clue>
+<keyword_title>most influential figures silent era starred silent movie  received  Academy Awards nomination Best Sound Recording</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?o WHERE { ?s &amp;lt;http://dbpedia.org/ontology/starring&amp;gt; ?o. ?o &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/class/yago/SilentFilmComedians&amp;gt;. FILTER FTContains (?o, "most influential figures of the silent era"). FILTER FTContains (?s, "received an Academy Awards nomination for Best Sound Recording"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?o WHERE { ?s <http://dbpedia.org/ontology/starring> ?o. ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/SilentFilmComedians>. FILTER FTContains (?o, "most influential figures of the silent era"). FILTER FTContains (?s, "received an Academy Awards nomination for Best Sound Recording"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013393" category="University College Bridges">
+<jeopardy_clue>This college is a part of this University and is  known for the Bridge of Sighs</jeopardy_clue>
+<keyword_title>college  part University  known Bridge of Sighs</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s1 ?s2 WHERE { ?s1 &amp;lt;http://dbpedia.org/ontology/affiliation&amp;gt; &amp;lt;http://dbpedia.org/resource/European_University_Association&amp;gt;. ?s2 &amp;lt;http://dbpedia.org/ontology/isPartOf&amp;gt; ?s1. FILTER FTContains (?s2, " known for the Bridge of Sighs"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s1 ?s2 WHERE { ?s1 <http://dbpedia.org/ontology/affiliation> <http://dbpedia.org/resource/European_University_Association>. ?s2 <http://dbpedia.org/ontology/isPartOf> ?s1. FILTER FTContains (?s2, " known for the Bridge of Sighs"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013394" category="Disease killers">
+<jeopardy_clue>This scientist and professor of public health and medicine is known for eradicating this disease.</jeopardy_clue>
+<keyword_title>scientist  professor public health medicine  known eradicating  disease</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?o WHERE { ?s &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/ontology/Disease&amp;gt;. ?o &amp;lt;http://dbpedia.org/ontology/knownFor&amp;gt; ?s. ?o &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/ontology/Scientist&amp;gt;. FILTER FTContains (?s, "caused by Variola major and Variola minor"). FILTER FTContains (?o, "professor of public health and medicine"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?o WHERE { ?s  <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Disease>. ?o <http://dbpedia.org/ontology/knownFor> ?s. ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>. FILTER FTContains (?s, "caused by Variola major and Variola minor"). FILTER FTContains (?o, "professor of public health and medicine"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013395" category="Voice and Strings">
+<jeopardy_clue>He was on vocals and he was the guitarist of commercially this most successful and influential rock bands of all time.</jeopardy_clue>
+<keyword_title> vocals guitarist commercially most successful influential rock bands all time</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s1 ?s2 ?b1 WHERE { ?s1 &amp;lt;http://dbpedia.org/ontology/associatedBand&amp;gt; ?b1 . ?s1 &amp;lt;http://dbpedia.org/ontology/instrument&amp;gt; &amp;lt;http://dbpedia.org/resource/Guitar&amp;gt;. ?s2 &amp;lt;http://dbpedia.org/ontology/associatedBand&amp;gt; ?b1 . ?s2 &amp;lt;http://dbpedia.org/ontology/instrument&amp;gt; &amp;lt;http://dbpedia.org/resource/Vocals&amp;gt;. FILTER FTContains (?b1, " the most commercially successful and influential rock bands of all time"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT  ?s1 ?s2 ?b1 WHERE {  ?s1 <http://dbpedia.org/ontology/associatedBand> ?b1 .  ?s1 <http://dbpedia.org/ontology/instrument> <http://dbpedia.org/resource/Guitar>. ?s2 <http://dbpedia.org/ontology/associatedBand> ?b1 .  ?s2 <http://dbpedia.org/ontology/instrument> <http://dbpedia.org/resource/Vocals>. FILTER FTContains (?b1, " the most commercially successful and influential rock bands of all time"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013396" category="Entertainment and Sports">
+<jeopardy_clue>This athlete is a trainer in this company that is largest wrestling promotion in the world.</jeopardy_clue>
+<keyword_title>athlete trainer company largest  wrestling promotion world</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?o ?s WHERE { ?o &amp;lt;http://dbpedia.org/property/trainer&amp;gt; ?s. ?o &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/ontology/Athlete&amp;gt;. FILTER FTContains (?o, "largest wrestling promotion in the world"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?o ?s WHERE { ?o <http://dbpedia.org/property/trainer> ?s. ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>. FILTER FTContains (?o, "largest  wrestling promotion in the world"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013397" category="Rivers and Bridges">
+<jeopardy_clue>The name of this river probably meant "dark" crosses this Bridge that refers to several bridges. </jeopardy_clue>
+<keyword_title>name river probably meant dark  crosses Bridge refers several bridges</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?m ?p WHERE { ?p &amp;lt;http://dbpedia.org/ontology/crosses&amp;gt; ?m . ?m &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/ontology/River&amp;gt; . FILTER FTContains (?m, "name probably meant dark"). FILTER FTContains (?p, "refers to several bridges"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?m ?p WHERE {  ?p <http://dbpedia.org/ontology/crosses> ?m .  ?m <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://dbpedia.org/ontology/River> . FILTER FTContains (?m, "name probably meant dark"). FILTER FTContains (?p, "refers to several bridges"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013398" category="TV Shows">
+<jeopardy_clue>This TV show in english language is the most impactful show of television.</jeopardy_clue>
+<keyword_title>TV show  english language most impactful show television</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/ontology/TelevisionShow&amp;gt;. ?s &amp;lt;http://dbpedia.org/ontology/language&amp;gt; &amp;lt;http://dbpedia.org/resource/English_language&amp;gt;. FILTER FTContains (?s, "the most impactful show of television"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type>  <http://dbpedia.org/ontology/TelevisionShow>. ?s <http://dbpedia.org/ontology/language>  <http://dbpedia.org/resource/English_language>. FILTER FTContains (?s, "the most impactful show of television"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013399" category="Fantacy and Fiction">
+<jeopardy_clue> This fiction writer and author of this book about a world of anthropomorphic creatures.</jeopardy_clue>
+<keyword_title>fiction writer  author  book  about world anthropomorphic creatures</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?o WHERE { ?s &amp;lt;http://dbpedia.org/ontology/literaryGenre&amp;gt; &amp;lt;http://dbpedia.org/resource/Fiction&amp;gt;. ?s &amp;lt;http://dbpedia.org/ontology/author&amp;gt; ?o. FILTER FTContains (?s, "world of anthropomorphic creatures"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?o WHERE { ?s <http://dbpedia.org/ontology/literaryGenre>  <http://dbpedia.org/resource/Fiction>. ?s <http://dbpedia.org/ontology/author>  ?o. FILTER FTContains (?s, "world of  anthropomorphic creatures"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013400" category="Biology Books">
+<jeopardy_clue>This mammal, of this order of meat eating terrestrial and mammal with claws, has more books written than any other wildlife species.</jeopardy_clue>
+<keyword_title>mammal  order  meat eating terrestrial mammal claws more books written than any other wildlife species</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?o WHERE { ?s rdf:type &amp;lt;http://dbpedia.org/ontology/Mammal&amp;gt; . ?s &amp;lt;http://dbpedia.org/ontology/order&amp;gt; ?o. FILTER FTContains(?s, "more books written about it than any other wildlife species"). FILTER FTContains (?o, "meat eating terrestrial animals with claws"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?o WHERE {  ?s rdf:type <http://dbpedia.org/ontology/Mammal> . ?s <http://dbpedia.org/ontology/order>  ?o. FILTER FTContains(?s, "more books written about it than any other wildlife species"). FILTER FTContains (?o, "meat eating terrestrial animals with claws"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013401" category="Money">
+<jeopardy_clue>This organisation in retail banking currently headed by this person was once the largest foreign exchange dealer in the world.</jeopardy_clue>
+<keyword_title>organisation retail banking currently headed person once largest foreign exchange dealer   world</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?o WHERE { ?s &amp;lt;http://dbpedia.org/ontology/product&amp;gt; &amp;lt;http://dbpedia.org/resource/Retail_banking&amp;gt;. ?s &amp;lt;http://dbpedia.org/ontology/keyPerson&amp;gt; ?o . FILTER FTContains(?s ,"was the largest foreign exchange dealer in the world"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?o WHERE {  ?s <http://dbpedia.org/ontology/product>  <http://dbpedia.org/resource/Retail_banking>. ?s <http://dbpedia.org/ontology/keyPerson> ?o . FILTER FTContains(?s ,"was the largest foreign exchange dealer in the world"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013402" category="Mini Companies">
+<jeopardy_clue>This company marketed Mini Cruiser and is now taken over by this company.</jeopardy_clue>
+<keyword_title>company marketed Mini Cruiser now taken over company</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?o WHERE { ?s &amp;lt;http://dbpedia.org/ontology/industry&amp;gt; &amp;lt;http://dbpedia.org/resource/Automotive_industry&amp;gt;. ?s &amp;lt;http://dbpedia.org/ontology/successor&amp;gt; ?o . FILTER FTContains (?s, "market the Mini Cruiser"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?o WHERE {  ?s  <http://dbpedia.org/ontology/industry> <http://dbpedia.org/resource/Automotive_industry>. ?s <http://dbpedia.org/ontology/successor>    ?o . FILTER FTContains (?s, "market the Mini Cruiser"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013403" category="Record Books">
+<jeopardy_clue>This book, written in many languages including Swedish, holds the record of the best-selling copyrighted book series of all time.</jeopardy_clue>
+<keyword_title>book written many languages including Swedish holds record best-selling copyrighted book series all time</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s WHERE { ?s &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/ontology/Book&amp;gt;. ?s &amp;lt;http://dbpedia.org/ontology/language&amp;gt; &amp;lt;http://dbpedia.org/resource/Swedish_language&amp;gt;. FILTER FTContains (?s, "as the best-selling copyrighted book series of all time"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s WHERE {  ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Book>. ?s <http://dbpedia.org/ontology/language> <http://dbpedia.org/resource/Swedish_language>. FILTER FTContains (?s, "as the best-selling copyrighted book series of all time"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013404" category="Companies">
+<jeopardy_clue>The company that believes in "Don't be evil" has subsidiary company that is  concerned with video-sharing.</jeopardy_clue>
+<keyword_title>company believes Don't be evil subsidiary company concerned with video-sharing</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?s ?o WHERE { ?s &amp;lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&amp;gt; &amp;lt;http://dbpedia.org/ontology/Company&amp;gt;. ?s &amp;lt;http://dbpedia.org/ontology/subsidiary&amp;gt; ?o. FILTER FTContains (?o, " concerned with video-sharing"). FILTER FTContains (?s, "Don't be evil"). }
+</escape>
+<verbatim>
+<![CDATA[SELECT ?s ?o WHERE { ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Company>. ?s  <http://dbpedia.org/ontology/subsidiary> ?o. FILTER FTContains (?o, " concerned with video-sharing"). FILTER FTContains (?s, "Don't be evil"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+
+<topic id="2013405" category="Bestseller">
+<jeopardy_clue>This granddaughter of Sholem Aleichem wrote this 1965 bestseller about a teacher in high school</jeopardy_clue>
+<keyword_title>granddaughter Sholem Aleichem wrote 1965 bestseller about  teacher high school</keyword_title>
+<sparql_ft>
+<escape>
+SELECT ?x ?y WHERE { ?x &amp;lt;http://dbpedia.org/ontology/author&amp;gt; ?y. FILTER FTContains(?x, "best seller set in a New York high school 1965"). FILTER FTContains(?y, "granddaughter of Sholem Aleichem"). } 
+</escape>
+<verbatim>
+<![CDATA[SELECT ?x ?y WHERE { ?x <http://dbpedia.org/ontology/author> ?y.  FILTER FTContains(?x, "best seller set in a New York high school 1965"). FILTER FTContains(?y, "granddaughter of Sholem Aleichem"). }]]>
+</verbatim>
+</sparql_ft>
+</topic>
+
+</inex-topic-file>
