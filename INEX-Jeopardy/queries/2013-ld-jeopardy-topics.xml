@@ -696,10 +696,10 @@ SELECT ?s WHERE { ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt
 <keyword_title> celebrity couple husband world's most attractive men wife beautiful woman</keyword_title>
 <sparql_ft>
 <escape>
-SELECT ?s ?o WHERE { ?s &lt;http://dbpedia.org/property/partner&gt; ?o. ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/Actor109765278&gt; . ?o &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/Actor109765278&gt; . FILTER FTContains (?s "world's most attractive male actor") . FILTER FTContains (?o, "most beautiful female actor") . }
+SELECT ?s ?o WHERE { ?s &lt;http://dbpedia.org/property/partner&gt; ?o. ?s &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/Actor109765278&gt; . ?o &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#type&gt; &lt;http://dbpedia.org/class/yago/Actor109765278&gt; . FILTER FTContains (?s, "world's most attractive male actor") . FILTER FTContains (?o, "most beautiful female actor") . }
 </escape>
 <verbatim>
-<![CDATA[SELECT ?s ?o WHERE { ?s <http://dbpedia.org/property/partner> ?o. ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Actor109765278> . ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Actor109765278> . FILTER FTContains (?s "world's most attractive male actor") . FILTER FTContains (?o, "most beautiful female actor") . }]]>
+<![CDATA[SELECT ?s ?o WHERE { ?s <http://dbpedia.org/property/partner> ?o. ?s <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Actor109765278> . ?o <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/class/yago/Actor109765278> . FILTER FTContains (?s, "world's most attractive male actor") . FILTER FTContains (?o, "most beautiful female actor") . }]]>
 </verbatim>
 </sparql_ft>
 </topic>
